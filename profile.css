@@ -1,0 +1,134 @@
+
+body{
+	font-family: Verdana;
+
+}
+.color{
+  background:linear-gradient(to left ,#F5EA96,#F8C67C);
+}
+.profile{
+	position: relative;
+	width: 80%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+}
+.pro-img{
+	margin-top: 10%;
+	width: 530px;
+	height: 530px;
+	
+
+}
+.pro-img img{
+	box-shadow:  rgba(0, 0, 0, 0.5 ) 0 2px 6px 0;
+	width: 100%;
+	height: 80%;
+	border-radius: 30%;
+}
+.pro-text span{  
+	padding:5px 25px ;
+	background: linear-gradient(130.08deg,white 0%,white 100%);
+	box-shadow: 0px 5px 5px white;
+	border:10px solid #3b3b3b;
+	border-radius: 100px;
+	color: var(--text--color);
+	font-weight: 700;
+	font-size:15px ;
+	text-transform: uppercase;
+}
+.pro-text h1{
+	font-size: 3em;
+	margin:23px 0;
+}
+.pro-text p{
+	font-size:1rem;
+	font-weight: 400;
+	color: black;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.btn{
+	display: inline-block;
+	padding: 14px 34px;
+	background: var lightcyan;
+	color: black;
+	border:3px solid black;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	transition: all 0.6s ease-in-out;
+	text-decoration: none;
+}
+.btn:hover{
+	transform: translateY(-5px);
+	background-color:#313866 ;
+	color: var black;
+}
+.share{
+	position: absolute;
+	bottom: 3rem;
+	left: 15%;
+	display: flex;
+	align-items: center;
+}
+
+.share p{
+	font-size: 17px;
+	color:var beige;
+	margin-right: 25px;
+}
+.social{
+	width: 200px;
+}
+.social i{
+     font-size: 30px ;
+      width: 50px;
+      color: black;
+      transition: font-size 350ms;
+}
+.social i:hover{
+	font-size: 35px;
+}
+@media (max-width:1850px){
+	section{
+		padding: 0 8%;
+		transition: .2s;
+	}
+	.share{
+		left: 8%;
+		transition: .2s;
+	}
+}
+.pro-img img{
+	animation: imgg 2s ease-in-out infinite;
+	animation-delay: 2s;
+}
+
+@keyframes imgg{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-22px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.share1{
+	position: absolute;
+	top: 80rem;
+	left: 10%;
+	display: flex;
+	align-items: center;
+}
+
+.share1 p{
+	font-size: 17px;
+	color:var beige;
+	margin-right: 25px;
+}

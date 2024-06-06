@@ -1,0 +1,273 @@
+nav #login a{
+       text-decoration: none;
+       color: white;
+}
+nav #login{
+       font-size: 15px;
+       color: white;
+       float: right;
+       height: 60px;
+       width: 100px;
+       display: inline-block;
+       line-height: 60px;
+       text-align: center;
+       margin-right: 50px;
+       text-align: center;
+      
+}
+nav #login:hover{
+      background-color:#788DE3    ;
+      transition: 0.2s all ease;
+      border-radius: 10px;
+      float: right;
+
+}
+nav{
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 100%; 
+      height: 60px;
+      background-color: #152081   ;
+      box-shadow: rgba(0, 0, 0, 0.5 ) 0 2px 6px 0;
+      font-family: Verdana;
+}
+nav ul{
+       list-style-type: none;
+       padding-top: 0px;
+       margin-left:5px ;
+}
+nav ul li{
+       float: left;
+       width: 145px;
+       height: 60px;
+       font-size: 15px;
+       line-height: 60px;
+       text-align: center;
+}
+nav ul li a{
+       text-decoration: none;
+       color: white;
+       display: block;
+       
+}
+nav ul li a:hover{
+      background-color:#788DE3    ;
+      transition: 0.2s all ease;
+      border-radius: 10px;
+}
+*{
+       margin: 0;
+       padding: 0;
+       
+}
+.hotel{
+       width: 30%;
+       height:450px ;
+       position: relative;
+       background: #fff;
+       margin: 8% auto;
+       float: right;
+       margin-right: 200px;
+       padding: 5px;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 1.0 ) 0 2px 6px 0;
+}
+.Let{
+       float: left;
+       color: white;
+       text-shadow:rgba(0, 0, 0, 1.0 ) 0 2px 6px 0; 
+       width: 400px;
+       padding-right: 30px;
+       margin-top: 20px;
+       line-height: 23px;
+       font-family: sans-serif;
+       font-weight: bold;
+
+}
+.Let h1{
+       padding-bottom: 20px;
+       font-weight: bold;
+       font-size: 30px;
+}
+.Let p{
+       font-size: 17px;
+}
+.span2{
+       text-transform: uppercase;
+       color: white;
+       text-shadow:rgba(0, 0, 1.0, 1.0 ) 0 4px 8px 1 ;
+}
+#bookForm{
+       font-size: 14px;
+       font-family: sans-serif;
+       
+       font-weight: bold;
+}
+#bookForm #info{
+       line-height: 50px;
+       text-transform: uppercase;
+       list-style: none;
+       margin-left: 50px;
+}
+#info li{
+       font-size: 14px;
+       
+}
+#info li .inputClass1{
+       margin-left: 70px;
+       border-bottom: 1px solid #999;
+       border-left: none;
+       border-right: none;
+       border-top: none;
+       outline: none;       
+}
+#info li .inputClass2{
+       margin-left: 40px;
+       border-bottom: 1px solid #999;
+       border-left: none;
+       border-right: none;
+       border-top: none;
+       outline: none;       
+}
+#info li .inputClass3{
+       margin-left: 27px;
+       border-bottom: 1px solid #999;
+       border-left: none;
+       border-right: none;
+       border-top: none;
+       outline: none;       
+}
+#info li .inputClass4{
+       margin-left: 58px;
+       border-bottom: 1px solid #999;
+       border-left: none;
+       border-right: none;
+       border-top: none;
+       outline: none;       
+}
+#info li .inputClass5{
+       margin-left: 20px;
+       border-bottom: 1px solid #999;
+       border-left: none;
+       border-right: none;
+       border-top: none;
+       outline: none;       
+}
+.hotel h2{
+       text-align: center;
+       text-transform: uppercase;
+       font-size: 24px;
+       font-family: sans-serif;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       background-color:#2544A7  ;
+       color: white;
+}
+#payment {
+       list-style: none;
+       font-size: 13px;
+}
+#payment li{
+       display: inline-block;
+       width: 150px;
+}
+#P1{
+       margin-left:50px ;
+       line-height: 30px;
+}
+.hotel h5{
+       margin-top: 20px;
+}
+.hotel h5 a{
+       border-radius: 5px;
+    background-color:#565B5F  ;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:100px;
+    padding-bottom: 10px;
+    
+    margin-left: 40%;
+    color: white;
+    text-decoration: none;
+
+}
+.hotel h5 a:hover{
+       background-color: #19368F ;
+       
+}
+.wrapper{
+       height: 100%;
+       width: 100%;
+       background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgba(0, 0, 0,0.5)),url("Hotel2.jpg");
+       background-position: center;
+       background-size: cover;
+       position: absolute;
+       align-items: center;
+
+}.hotel1{
+       width: 30%;
+       height:250px ;
+       position: relative;
+       background: white;
+       padding-left:30px;
+       float: right;
+       margin-right:150px;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 1.0 ) 0 2px 6px 0;
+      background-color: rgba(0, 0, 0, 0.192);
+    margin-top:13% ;
+    box-sizing: border-box;
+    color: white;
+    backdrop-filter: blur(2.5px);
+       
+
+}
+
+.thanks{
+       font-family: Verdana;
+       background-color: white;
+       margin-top: 12em;
+       width: 350px;
+       height: 220px;
+       text-align: center;
+       margin-left: 39em;
+       border-radius: 20px;
+       box-shadow: 10px 10px 20px rgba(0, 0, 0, 5);
+}
+.thanks p{
+       font-family: sans-serif;
+}
+#okbtn{
+font-family: sans-serif;
+  height:30px ;
+  width: 80%;
+  border: 1px solid #444;
+  outline: none;
+  background: #0F25C4  ;
+  color: white;
+  font-size: 17px;
+  font-weight:bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+#okbtn:hover{
+  background-color:#7F8EF5;
+}
+#booknow{
+       margin-left: 180px;
+       font-family: sans-serif;
+       font-weight: bold;
+       padding:5px 5px 5px 5px;
+       color: white;
+       background-color:#0F25C4  ;
+       border-radius: 5px;
+       margin-top: 20px;
+}
+#booknow:hover{
+       background-color: #7F8EF5 ;
+}
