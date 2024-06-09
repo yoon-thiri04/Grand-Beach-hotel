@@ -53,8 +53,8 @@ This website is designed for viewing purposes only. Users can navigate through t
 ## Developers
 
 This project was developed by:
-- [Yoon Thiri Aung](https://t.me/yoonthiri04)
-- [Ngwe Sandar Zaw](https://t.me/s_mooNY)
+- [Yoon Thiri Aung](https://github.com/yoon-thiri04)
+- [Ngwe Sandar Zaw](https://github.com/N-Sandar-Z)
 
 For more information about the developers, please refer to the `profile` file.
 
